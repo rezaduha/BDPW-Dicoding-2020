@@ -104,7 +104,8 @@ aside {
 }
 
 @media screen and (max-width: 600px) {
-  #content, aside {
+  #content,
+  aside {
     width: 100%;
     padding: 0;
   }
