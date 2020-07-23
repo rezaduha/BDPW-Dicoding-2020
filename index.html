@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/image/favicon.ico"
+      type="image/x-icon"
+    />
     <title>UI today</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link id="theme" rel="stylesheet" href="./assets/styles/style-light.css" />
   </head>
   <body>
     <header>
@@ -17,7 +22,7 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#blog">Blog</a></li>
-          <li><a href="#About">Blog</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </nav>
     </header>
@@ -28,14 +33,126 @@
           <h1>Welcome to UI today</h1>
           <p>We hope you find exactly what you're looking for...</p>
         </span>
-        <img src="./assets/image/undraw_experience_design.svg" alt="" />
+        <img
+          src="./assets/image/svg/undraw_experience_design.svg"
+          alt="landing page image"
+        />
       </div>
 
-      <article></article>
+      <div class="btn-theme">
+        <button id="theme-toggle"><i class="fas fa-circle"></i></button>
+      </div>
 
-      <aside></aside>
+      <div id="blog">
+        <h2>Latest Article...</h2>
+        <div class="content">
+          <article class="card">
+            <div class="card-header">
+              <img
+                src="./assets/image/undraw_grid_design.png"
+                alt="article image"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-yellow">Product Design</span>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                aliquid.
+              </p>
+              <div class="user">
+                <img
+                  src="./assets/image/user/thispersondoesnotexist1.jpeg"
+                  alt="user photo"
+                />
+                <div class="user-info">
+                  <h5>Mona J. Day</h5>
+                  <small>2h Ago</small>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-header">
+              <img
+                src="./assets/image/undraw_segmentation.png"
+                alt="article image"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-lawngreen">Design Thinking</span>
+              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptate sapiente nulla fugit?
+              </p>
+              <div class="user">
+                <img
+                  src="./assets/image/user/thispersondoesnotexist2.jpeg"
+                  alt="user photo"
+                />
+                <div class="user-info">
+                  <h5>James E. Garrett</h5>
+                  <small>Yesterday</small>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-header">
+              <img
+                src="./assets/image/undraw_work_together.png"
+                alt="article image"
+              />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-purple">Startup</span>
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                vitae blanditiis! Nulla voluptatem fugit suscipit.
+              </p>
+              <div class="user">
+                <img
+                  src="./assets/image/user/thispersondoesnotexist3.jpeg"
+                  alt="user photo"
+                />
+                <div class="user-info">
+                  <h5>Matt Davidson</h5>
+                  <small>2 Days ago</small>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div id="about">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+          similique adipisci incidunt nulla explicabo dolorum? Expedita laborum
+          vitae ratione quidem voluptas possimus dolorem deserunt minima nihil.
+          Doloremque in perspiciatis dolor sunt alias praesentium repellendus
+          animi sit officiis, quam excepturi quod quis velit? Odio blanditiis
+          beatae deserunt facere unde quibusdam sint, animi accusamus ipsum,
+          accusantium earum corporis veniam. Facilis, dolores illum?
+        </p>
+      </div>
+
+      <aside>
+        <img src="./assets/image/photo_profile.png" alt="profile image" />
+        <p>Reza Fauzi Zisiwa Duha</p>
+      </aside>
     </main>
-    <footer></footer>
+    <footer>
+      <small>
+        copyright &#169; 2020.<br />
+        BDPW Dicoding Submission ~ RFZD
+      </small>
+    </footer>
     <script src="./assets/main.js"></script>
   </body>
 </html>
